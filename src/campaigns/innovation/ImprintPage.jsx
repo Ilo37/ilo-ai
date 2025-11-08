@@ -25,8 +25,8 @@ const ImprintPage = () => {
               </p>
               <p>
                 Website:{' '}
-                <a href="https://fysion.de" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-gray-700">
-                  https://fysion.de
+                <a href="https://www.ilo-ai.de" target="_blank" rel="noopener noreferrer" className="text-black underline hover:text-gray-700">
+                  www.ilo-ai.de
                 </a>
               </p>
             </div>

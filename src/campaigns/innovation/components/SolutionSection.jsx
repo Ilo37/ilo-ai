@@ -66,6 +66,43 @@ const SolutionSection = () => {
             </div>
           ))}
         </div>
+
+        {/* Mockup-Präsentation */}
+        <div className="mt-24">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h3 className="text-3xl lg:text-4xl font-bold text-black mb-4">
+              So sieht unsere Lösung aus
+            </h3>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Ihre Kunden können jetzt die Kleidungsstücke direkt im Shop virtuell anprobieren, 
+              auf ihre Maße testen und schauen, ob alles perfekt passt. Einfach und schnell integriert – 
+              für ein modernes Shopping-Erlebnis.
+            </p>
+          </div>
+
+          <div className="relative max-w-5xl mx-auto">
+            {/* Decorative Background */}
+            <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-gray-50 rounded-3xl transform rotate-1"></div>
+            
+            {/* Main Image Container */}
+            <div className="relative bg-white rounded-2xl p-3 shadow-xl border-2 border-green-500">
+              <img 
+                src="/Beispiel Bild Mockup.jpg" 
+                alt="Ilo Virtual Try-On Mockup" 
+                className="w-full h-auto rounded-xl shadow-lg"
+              />
+              
+              {/* Subtle Green Accent Corners */}
+              <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-green-500 rounded-tl-2xl"></div>
+              <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-green-500 rounded-br-2xl"></div>
+            </div>
+
+            {/* Floating Badge */}
+            <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-8 py-3 rounded-full shadow-lg font-semibold text-sm">
+              ✨ Live im Shop erlebbar
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
