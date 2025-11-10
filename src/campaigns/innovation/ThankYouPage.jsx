@@ -28,16 +28,15 @@ const ThankYouPage = () => {
           </h1>
           
           <div className="space-y-4 mb-12 text-lg text-gray-600 leading-relaxed">
-            {/* Text: Wir bedanken uns, erklären kurz den nächsten Schritt und warum die Umfrage hilft, bessere/mehr zugeschnittene Angebote zu machen */}
             <p>
               Wir haben Ihre Anmeldung erhalten und werden uns in Kürze bei Ihnen melden.
             </p>
             <p>
-              Um Ihnen die bestmöglichen Informationen und ein maßgeschneidertes Angebot zu erstellen, 
-              würden wir Sie bitten, noch eine <strong className="text-black">kurze Umfrage</strong> auszufüllen.
+              Um Sie bestmöglich zu unterstützen, würden wir gerne mehr über Ihre spezifischen 
+              Bedürfnisse erfahren. Dafür haben wir eine <strong className="text-black">kurze Umfrage</strong> vorbereitet.
             </p>
             <p>
-              Die Umfrage dauert nur etwa 2 Minuten und hilft uns, Ihre spezifischen Bedürfnisse 
+              Die Umfrage dauert nur etwa 2 Minuten und hilft uns, Ihre Anforderungen 
               besser zu verstehen.
             </p>
           </div>
